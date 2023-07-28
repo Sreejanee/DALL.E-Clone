@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
-        <header className='w-full flex justify-between item-center bg-white sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4] '>
+        <header className='w-full flex justify-between item-center bg-white sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4] sticky top-0 '>
           <Link to="/">
             <img src={logo} alt="logo" className='w-28 object-contain' />
           </Link>
